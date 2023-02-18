@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Игра</title>
+	<title>Game</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
@@ -16,7 +16,7 @@
 					<div class="text_in">Try to pass the whole test right</div>
 					<div class="box">
 						<div class="num" id="num"></div>
-						<div class="phrase" id="phrase"></div>
+						<div class="phrase" id="phrase">Congratulations, you did an excellent job on the quiz!</div>
 					</div>
 				</div>
 				<div class="pic"></div>
@@ -30,7 +30,7 @@
 				<p class="count" id ='count'>0</p>
 			</div>
 			<div class="question">
-				<img src="data:image/png;base64,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" alt="" class="styled__SmallImage-rxvbnv-5 jqQdCA" style="height: 42px;margin-left:180px;margin-top:70px;">
+				<img src="./images/tree.png" alt="" class="styled__SmallImage-rxvbnv-5 jqQdCA" style="height: 42px;margin-left:180px;margin-top:70px;">
 				<div class="text" id ="text">Question 1</div>
 			</div>
 			<div class="buttons">
