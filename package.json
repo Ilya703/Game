@@ -11,6 +11,7 @@
     "url": "git+https://github.com/Ilya703/game.git"
   },
   "keywords": [],
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
